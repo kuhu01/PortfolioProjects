@@ -3,10 +3,6 @@ portfolio_ .coviddeaths
 WHERE continent is not null
 ORDER BY 3,4
 
-/*SELECT * FROM
-portfolio_ .covidvaccinationscsv
-ORDER BY 3,4 */
-
 SELECT location , date , total_cases , new_cases , total_deaths , population 
 FROM portfolio_ .coviddeaths
 ORDER BY 1,2
